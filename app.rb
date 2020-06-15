@@ -10,6 +10,12 @@ class App < Sinatra::Base
 		erb :hello
 	end
 
+	get '/goodbye' do
+		@name = 'Joe'
+		erb :goodbye
+
+	end
+
 
 end
 
