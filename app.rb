@@ -1,10 +1,11 @@
 require 'date'
 
 class App < Sinatra::Base
-
-	get '/' do
-		erb :index
-	end
+	set :views, "./views"
+	
+	# get '/' do
+	# 	erb :index
+	# end
 
 	get '/hello' do 
 		erb :hello 
