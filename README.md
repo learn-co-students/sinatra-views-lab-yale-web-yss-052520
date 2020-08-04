@@ -32,7 +32,7 @@ You can run `learn` to get the tests passing and see errors.
 2. Create another template called `goodbye.erb` in `views`. In this view, use
    ERB tags to create a variable `name`. This variable should store the name
    `Joe`. Then, using ERB tags, say "Goodbye Joe" in an `h1` tag. This should get
-   rendered via a GET `/goodbye` route by your `App` controller in `app.rb`.
+   rendered via a GET `/goodbye` route by your `App` controller in `app.rb`.<>
 
 3. Create a template called `date.erb` in `views` that gets rendered via GET
    `/date`. It should contain an `h1` with the content `Today`
